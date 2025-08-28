@@ -11,8 +11,8 @@ int main() {
     long l = -1234567890;
     unsigned long ul = 1234567890;
 
-    printf("char(%lu): %d \n", sizeof(c), c);
-    printf("unsigned char(%lu): %d \n", sizeof(uc), uc);
+    printf("char(%lu): %c \n", sizeof(c), c);
+    printf("unsigned char(%lu): %c \n", sizeof(uc), uc);
     printf("short(%lu): %d \n", sizeof(s), s);
     printf("unsigned short(%lu): %d \n", sizeof(us), us);
     printf("int(%lu): %d \n", sizeof(i), i);
